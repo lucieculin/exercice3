@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "roboto";
+    src: url(../Exercice3/polices/Roboto/Roboto-Black.ttf);
+}
+body{
+    width:100%;
+    margin:0;
+    font-family: "roboto";
+}
+.dim{
+    height: 650px;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    object-fit: cover;
+    object-position: ;
+}
+.navbar{
+    background-color: #095686;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding:10px;
+    border:0;
+    width: 100%;
+    padding: 0;
+    z-index:1;
+    position:absolute;
+    color: #fff;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    gap:2rem;
+
+}
+.bottom-nav a:hover{
+    background-color: #0ef7e7;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    
+}
+.bottom-nav a{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
